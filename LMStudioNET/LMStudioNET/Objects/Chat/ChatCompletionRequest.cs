@@ -24,6 +24,9 @@ namespace LMStudioNET.Objects.Chat
         [JsonPropertyName("stream")]
         public bool Stream { get; set; }
 
+        [JsonPropertyName("tools")]
+        public List<ToolDefinition> Tools { get; set; }
+
         [JsonPropertyName("response_format")]
         public ResponseFormat ResponseFormat { get; set; }
     }
