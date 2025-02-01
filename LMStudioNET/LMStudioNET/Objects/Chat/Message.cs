@@ -15,6 +15,9 @@ namespace LMStudioNET.Objects.Chat
         [JsonPropertyName("content")]
         public string Content { get; set; }
 
+        [JsonPropertyName("tool_call_id")]
+        public string ToolCallId { get; set; }
+
         [JsonPropertyName("tool_calls")]
         public List<ToolCall> ToolCalls { get; set; }
     }
