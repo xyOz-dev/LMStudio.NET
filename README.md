@@ -1,2 +1,3 @@
 # LMStudio.NET
- An In development
+ An In development project
+ 
