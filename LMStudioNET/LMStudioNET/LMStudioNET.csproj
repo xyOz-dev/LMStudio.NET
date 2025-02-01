@@ -1,9 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<PackageId>LMStudioNET</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>xyOz</Authors>
+		<Company>xyOz.dev</Company>
+		<Description>A .NET client library for interacting with the LM Studio server API.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/xyOz-dev/LMStudio.NET</RepositoryUrl>
+		<PackageOutputPath>./nupkg</PackageOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="9.0.1" />
+	</ItemGroup>
 
 </Project>
